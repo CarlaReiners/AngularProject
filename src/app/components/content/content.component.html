@@ -1,0 +1,25 @@
+<!-- Page Content -->
+<div class="container">
+  <!-- Marketing Icons Section -->
+  <div class="row">
+    <div class="col-lg-4 mb-4" *ngFor="let country of countries | async">
+      <div class="card h-100">
+        <h4 class="card-header">{{country.name}}</h4>
+        <div class="card-body">
+          <img src={{country.flag}}>
+          <p class="card-text">
+            Native name: {{country.nativeName}}
+            <br>
+            Capital: {{country.capital}}
+            <br>
+            Region: {{country.region}}
+            <br>
+            Population: {{country.population}}
+            <br>
+            Timezone: {{country.timezones}}
+        </div>
+        <div class="card-footer">
+          <a href="https://de.wikipedia.org/wiki/{{country.name}}" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>

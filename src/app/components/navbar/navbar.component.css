@@ -1,0 +1,10 @@
+.navbar-brand{ 
+    color: rgb(206, 156, 156);
+}
+
+img{
+    width: 35px;
+    z-index: 1000;
+    position: relative;
+    left: 120px;
+}

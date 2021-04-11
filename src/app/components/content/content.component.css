@@ -1,0 +1,26 @@
+
+ .btn-primary{
+   background-color: rgb(206, 156, 156);
+   color: #fff;
+   border-color: rgb(209, 209, 209);
+} 
+
+.card-header{
+    background-color:#6c757d;
+    opacity: 0.8;
+    color: #fff;
+}
+
+img{
+  
+    width: 60px;
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    right: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
